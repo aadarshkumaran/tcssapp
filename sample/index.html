@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS</title>
+    <link rel="icon"
+        href="https://yt3.ggpht.com/yti/AHXOFjWrd7wT2-5ceqO30s6t-kZaHyYzkeQQ_Kgu5BY=s88-c-k-c0x00ffffff-no-rj-mo">
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./src/input.css">
+</head>
+
+<body class="font-medium">
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6">
+        <!-- navbar container -->
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="pt-2"><img class="rounded-full w-10"
+                    src="https://yt3.ggpht.com/yti/AHXOFjWrd7wT2-5ceqO30s6t-kZaHyYzkeQQ_Kgu5BY=s88-c-k-c0x00ffffff-no-rj-mo"
+                    alt=""></div>
+            <!-- Menu items -->
+            <div class="hidden -mr-10 space-x-4 md:flex">
+                <a href="#" class="focus:text-darkGrayishBlue">Pricing</a>
+                <a href="#" class="focus:text-darkGrayishBlue">About</a>
+                <a href="#" class="focus:text-darkGrayishBlue">Careers</a>
+                <a href="#" class="focus:text-darkGrayishBlue">Community</a>
+                <a href="#" class="focus:text-darkGrayishBlue">Login</a>
+            </div>
+            <div class="btn">
+                <!-- Button -->
+                <a href="#"
+                    class=" hidden p-3 px-4 pt-2 bg-brightRed text-white baseline rounded-full hover:bg-brightRedLight duration-200 md:block">Get
+                    Started</a>
+            </div>
+            <!-- Hamburger Icon  -->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+        <!-- Mobile Menu  -->
+        <div class="md:hidden">
+            <div id="menu"
+                class="absoluteflex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white left-6 right-6 drop-shadow-md sm:w-auto sm:self-center">
+                <a href="#">Pricing</a>
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Community</a>
+                <a href="#">Login</a>
+            </div>
+        </div>
+    </nav>
+    <!-- main section -->
+    <section id="main">
+        <!-- flex container  -->
+        <div
+            class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-10 md:space-y-0">
+            <!-- left item  -->
+            <div class="flex flex-col mb-32 space-y-10 md:w-1/2">
+                <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left md:my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h1>
+                <p class="max-w-md text-left text-darkGrayishBlue md:text-justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ducimus soluta a reprehenderit sequi
+                    obcaecati perspiciatis, possimus.
+                </p>
+                <div class="flex justify-center md:justify-start">
+                    <!-- Button -->
+                    <a href="https://static.wixstatic.com/media/f9ed35_27678a49c7d7486ba468d01e3e0763e2~mv2.png"
+                        class=" p-3 px-4 pt-2 bg-brightRed text-white baseline rounded-full hover:bg-brightRedLight duration-200">Get
+                        Started</a>
+                </div>
+            </div>
+            <!-- right item  -->
+            <div class="flex items-center md:w-1/2">
+                <img class="px-20"
+                    src="https://static.wixstatic.com/media/f9ed35_27678a49c7d7486ba468d01e3e0763e2~mv2.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="features">
+        <div class="container flex flex-col px-4 mx-auto space-y-12 md:space-y-0 md:flex-row">
+            <!-- left  -->
+            <div class="flex flex-col mb-32 space-y-10 md:w-1/2">
+                <h2 class="max-w-md text-4xl font-bold text-center md:text-1xl md:text-left">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.saad
+                </h2>
+                <p class="max-w-sm text-center text-darkGrayishBlue md:text-justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus modi quibusdam praesentium iure aut.
+                    Nobis sint, deleniti dignissimos facere nesciunt quo commodi, ipsa dicta beatae obcaecati possimus
+                    ullam quia totam!
+                </p>
+            </div>
+            <!-- right -->
+            <div class="flex flex-col space-y-8 md:w-1/2">
+                <!-- List1 -->
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!-- heading -->
+                    <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">1</div>
+                            <h3 class="text-base text-white font-bold md:mb-4 md:hidden ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eveniet.
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="">
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eveniet.
+                        </h3>
+                        <p class="text-darkGrayishBlue">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et minus saepe, molestias illo ad
+                            voluptatem quidem amet aliquam, tempora necessitatibus, voluptate omnis repudiandae quos
+                            magnam. Quisquam ab recusandae nisi dolores.
+                        </p>
+                    </div>
+                </div>
+                <!-- List 2 -->
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!-- heading -->
+                    <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">2</div>
+                            <h3 class="text-base text-white font-bold md:mb-4 md:hidden ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eveniet.
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="">
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eveniet.
+                        </h3>
+                        <p class="text-darkGrayishBlue">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et minus saepe, molestias illo ad
+                            voluptatem quidem amet aliquam, tempora necessitatibus, voluptate omnis repudiandae quos
+                            magnam. Quisquam ab recusandae nisi dolores.
+                        </p>
+                    </div>
+                </div>
+                <!-- List3 -->
+                <div class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row">
+                    <!-- heading -->
+                    <div class="rounded-l-full bg-brightRedSupLight md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed">3</div>
+                            <h3 class="text-base text-white font-bold md:mb-4 md:hidden ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eveniet.
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="">
+                        <h3 class="hidden mb-4 text-lg font-bold md:block">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, eveniet.
+                        </h3>
+                        <p class="text-darkGrayishBlue">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et minus saepe, molestias illo ad
+                            voluptatem quidem amet aliquam, tempora necessitatibus, voluptate omnis repudiandae quos
+                            magnam. Quisquam ab recusandae nisi dolores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section id="testimonials">
+        <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+            <!-- Heading  -->
+            <h2 class="font-bold text-4xl text-center">
+                Testimonial
+            </h2>
+            <!-- testimonials content  -->
+            <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+                <!-- Testimonial 1 -->
+                <div class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3">
+                    <img src="https://yt3.ggpht.com/yti/AHXOFjWrd7wT2-5ceqO30s6t-kZaHyYzkeQQ_Kgu5BY=s88-c-k-c0x00ffffff-no-rj-mo"
+                        class="rounded-full w-16 -mt-14" alt="">
+                    <!-- if you want to put negative value we need add minus before the css name (Eg. -mt-14) -->
+                    <h5>Lorem Ipsum</h5>
+                    <p class="text-small text-darkGrayishBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam tenetur a necessitatibus cum aliquid!</p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="hidden  flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3">
+                    <img src="https://yt3.ggpht.com/yti/AHXOFjWrd7wT2-5ceqO30s6t-kZaHyYzkeQQ_Kgu5BY=s88-c-k-c0x00ffffff-no-rj-mo"
+                        class="rounded-full w-16 -mt-14" alt="">
+                    <!-- if you want to put negative value we need add minus before the css name (Eg. -mt-14) -->
+                    <h5>Lorem Ipsum 2</h5>
+                    <p class="text-small text-darkGrayishBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam tenetur a necessitatibus cum aliquid!</p>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3">
+                    <img src="https://yt3.ggpht.com/yti/AHXOFjWrd7wT2-5ceqO30s6t-kZaHyYzkeQQ_Kgu5BY=s88-c-k-c0x00ffffff-no-rj-mo"
+                        class="rounded-full w-16 -mt-14" alt="">
+                    <!-- if you want to put negative value we need add minus before the css name (Eg. -mt-14) -->
+                    <h5>Lorem Ipsum 3</h5>
+                    <p class="text-small text-darkGrayishBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam tenetur a necessitatibus cum aliquid!</p>
+                </div>
+            </div>
+            <!-- Button  -->
+            <div class="my-16">
+                <a href="https://static.wixstatic.com/media/f9ed35_27678a49c7d7486ba468d01e3e0763e2~mv2.png"
+                    class=" p-3 px-4 pt-2 bg-brightRed text-white baseline rounded-full hover:bg-brightRedLight duration-200">Get
+                    Started</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="CTA" class="bg-brightRed">
+        <div
+            class="flex container flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-12">
+            <h2 class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left">
+                Lorem ipsum dolor sit amet adasd ashdja.
+            </h2>
+            <a href="#"
+                class=" p-3 px-4 pt-2 bg-white text-brightRed baseline rounded-full shadow-2xl hover:bg-gray-900 duration-200">Get
+                Started</a>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-darkBlue">
+        <div
+            class="flex container flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+            <!-- Logo and social Media container -->
+            <div
+                class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space y-0 md:items-start">
+                <div class="">
+                    <img class="rounded-full w-10"
+                        src="https://yt3.ggpht.com/yti/AHXOFjWrd7wT2-5ceqO30s6t-kZaHyYzkeQQ_Kgu5BY=s88-c-k-c0x00ffffff-no-rj-mo"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
